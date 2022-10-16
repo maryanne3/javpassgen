@@ -1,11 +1,26 @@
 // Assignment code here
-function generatePassword() {
+const generateBtn = document.querySelector("#generate");
  // Variables 
- const  
+ function generatePassword() {
+const lowercase = "abcdefghijklmnopqrstuvwxyz";
+const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const numbers   = "0123456789";
+const specials  = "~@&#!£$%()*+:;";
 }
 
+// Password length 
+let passwordlength = 8-128;
+let password = '';
+
+for (passwordlength < 8 || passwordlength > 128) {
+  alert ("choose a different length");
+  return passwordlength;
+} else (passwordlength >=8 || passwordlength <=128){
+}
+
+
 // Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+
 
 // Write password to the #password input
 function writePassword() {
