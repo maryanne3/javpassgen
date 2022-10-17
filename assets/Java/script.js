@@ -1,13 +1,22 @@
 // Assignment code here
+var generateBtn = document.querySelector("#generate");
 
+function generatePassword() {
+  console.log ("Click the button to generate password");
+}
 
 // Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+const Uppercase = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+const Lowercase = ["abcdefghijklmnopqrstuvwxyz"];
+const Numbers = ["1234567890"];
+const Specials = ["!#$%&*'()+@"]
+
+
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  const password = generatePassword();
+  const passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
