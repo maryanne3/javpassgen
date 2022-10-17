@@ -1,5 +1,5 @@
 # javpassgen
-An application that an employee can use to generate a random password!
+An application to generate a random password!
 
 # Task & criteria 
 
@@ -9,6 +9,7 @@ An application that an employee can use to generate a random password!
 # Web Application 
 The following image shows the web application's appearance and functionality:
 
+![](assets/images/web%20snap.png)
 
 # Technologies 
 * JavaScript
